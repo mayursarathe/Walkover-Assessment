@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.head-text {
+  font-size: 2rem;
+}
+
+.box1,
+.box2,
+.box3 {
+  margin-top: 2rem;
+  height: 600px;
+  width: 400px;
+  background-color: yellow;
+}
+.box1-row1 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.b1,
+.b2 {
+  margin-top: 1rem;
+  height: 250px;
+  width: 180px;
+  background-color: lightblue;
+}
+.b2 {
+  height: 250px;
+  width: 180px;
+  background-color: lightblue;
+}
+
+.box1-row2 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: lightblue;
+  height: 300px;
+  text-align: left;
+}
+
+.b2-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.b2-box1,
+.b2-box2 {
+  margin-top: 1.5rem;
+  background-color: lightblue;
+  height: 550px;
+  width: 170px;
+}
+
+.b3-row1,
+.b3-row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.b3-r1-b1,
+.b3-r2-b2 {
+  background-color: lightblue;
+  height: 270px;
+  width: 160px;
+  margin-top: 1rem;
+}
+
+.b3-r1-b2,
+.b3-r2-b1 {
+  height: 270px;
+  width: 160px;
+  margin-top: 1rem;
+}
+
+.img1 {
+  height: 150px;
+  width: 150px;
+  margin-top: 7rem;
+}
+.img2 {
+  height: 150px;
+  width: 150px;
+}
+
+.box-text {
+  margin-top: 1rem;
+}
